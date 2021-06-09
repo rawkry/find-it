@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Turret Road', cursive;
+}
+body{
+    
+    background-image: url("../game/images/bac.jpg");
+
+}
+.container{
+    text-align: center;
+    
+    
+   
+   
+  }
+  #root{
+    
+   color: darkorchid;
+   font-size: 62px;
+   height: 98px;
+    width: 102px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 3px #d9e8e5;
+  }
+  #btn{
+    position: relative;
+    background-image: url("../game/images/bac.jpg");
+    font-size: 30px;
+    width: 159px;
+    height: 89px;
+    border-radius:20px;
+    box-shadow: 7px 11px 5px -2px rgb(5 5 37 / 55%);
+    transition: 1s;
+  }
+#btn:hover{
+  border: 1px solid black;
+  background-color: red;
+  background: rgba(100, 100, 100, 0.5);
+  transform-style: preserve-3d;
+  transform: rotateX(40deg);
+  cursor: pointer;
+  }
+    
+  
+   .container_NUmber{
+    font-size: 2rem;
+    color: rgb(154 116 88);
+    text-shadow: rgb(86 64 68) 5px 8px 3px;
+    margin: 4px;
+    padding: 6px;
+    border-bottom: 1px solid black;
+   }
+
+   #yourNumber{
+      width: 100%;
+      font-size: 32px;
+      border-style: dotted dashed solid double;
+      border-radius: 5rem;
+      text-align: center;
+      color: crimson;
+      transition: 3s;
+      border-bottom-width: 3px;
+      background-image: url("../game/images/bac.jpg");
+      
+   }
+
+   #yourNumber:hover{
+   
+    background: rgba(100, 100, 100, 0.5);
+    
+
+   }
+   .setNumber{
+    position: relative;
+    background-image: url(../game/images/bac.jpg);
+    font-size: 27px;
+    width: 159px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 7px 11px 5px -2px rgb(5 5 37 / 55%);
+    transition: 1s;
+       margin: 8px;
+   }
+   .setNumber:hover{
+    border: 1px solid black;
+    background-color: red;
+    background: rgba(100, 100, 100, 0.5);
+    transform-style: preserve-3d;
+    transform: rotateX(20deg);
+    cursor: pointer;
+    }
+
+
+
+
+  
+.container h1{
+    font-size:  4rem; 
+    margin: 0px;
+    text-shadow: 3px 9px 3px #acb39a;
+    color: #6f675e;
+    border-bottom: 2px solid black;
+    transition:2s;
+  }
+  .container h1:hover{
+    text-shadow: 1px 1px 2px #656662;
+    cursor: pointer;
+  }
+
+  #reset{
+      position: relative;
+      background-image: url("../game/images/bac.jpg");
+      font-size: 30px;
+      width: 87px;
+      height: 89px;
+      border-radius:20px;
+    box-shadow: 7px 11px 5px -2px rgb(5 5 37 / 55%);
+    transition: 1s;
+    box-sizing: unset;
+}
+#reset:hover{
+border: 1px solid black;
+background-color: red;
+background: rgba(100, 100, 100, 0.5);
+transform-style: preserve-3d;
+transform: rotateX(40deg);
+cursor: pointer;
+}
+

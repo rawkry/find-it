@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Find-it</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <h1 > FIND It </h1>
+
+        <div class="container_display">
+            <div class="container_NUmber" id="selectedNumber"></div>
+            <div class="container_NUmber" id="comparing"></div>
+        </div>
+        <input type="number" id="yourNumber" placeholder="input number from 1-9">
+        <button onclick="setNumber()" class="setNumber">set number</button>
+        <div class="container_root" id="root"> 0 </div>
+        <div class="container_btn">
+        <button onclick="generate()" id="btn">Generate</button>
+
+        <button id="reset" onclick="reset()">Play Again</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
